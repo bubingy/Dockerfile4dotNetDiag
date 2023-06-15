@@ -1,5 +1,5 @@
 # Base images 
-FROM fedora:30
+FROM fedora:38
 
 RUN dnf install -y curl findutils git libicu libunwind \
     lldb-devel python3 tar vim wget which zip && \

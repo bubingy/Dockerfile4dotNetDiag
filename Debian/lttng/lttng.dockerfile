@@ -1,5 +1,5 @@
 # Base images 
-FROM debian:bullseye
+FROM debian:10
 
 # RUN
     # install required packages
