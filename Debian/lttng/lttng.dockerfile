@@ -1,5 +1,5 @@
 # Base images 
-FROM debian:10
+FROM debian:11
 
 # RUN
     # install required packages
