@@ -1,4 +1,4 @@
-FROM debian:bullseye
+FROM debian:bookworm
 
 RUN apt update && apt install -y clang cmake curl gettext git libicu-dev libkrb5-dev \
     liblttng-ust-dev libncurses5 libunwind8 libssl-dev lld \
